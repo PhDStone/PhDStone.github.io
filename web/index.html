@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Xinlei Yang — Process Engineer · Lithography (AI Enablement)</title>
+<meta name="description" content="Personal site of Xinlei Yang — incoming process engineer (lithography, AI enablement) at SMIC South. Master's research on Ru-based alkaline HER electrocatalysts, builder of EchemPro, learning in public toward LLM application engineering.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <p class="identity">
+      <span class="identity-name">Xinlei Yang</span>
+      <span class="identity-role">Process Engineer — Lithography · AI Enablement</span>
+    </p>
+    <nav aria-label="Section navigation">
+      <ul class="nav-list">
+        <li><a href="#work"><span class="nav-num">01</span> Projects</a></li>
+        <li><a href="#roadmap"><span class="nav-num">02</span> Roadmap</a></li>
+        <li><a href="#career"><span class="nav-num">03</span> Career</a></li>
+        <li><a href="#skills"><span class="nav-num">04</span> Skills</a></li>
+        <li><a href="#contact"><span class="nav-num">05</span> Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero container" aria-labelledby="hero-title">
+    <div class="hero-lead">
+      <p class="section-num">00 — Profile</p>
+      <h1 id="hero-title">I turn fab problems into AI tasks —<br>and AI outputs into <em>decisions engineers trust</em>.</h1>
+      <p class="hero-sub">Electrochemistry &amp; materials research · builder of my own data tools · systematically preparing for AI-enabled lithography.</p>
+    </div>
+    <aside class="hero-side" aria-label="About and current status">
+      <h2 class="side-heading">About</h2>
+      <p>M.S. candidate (class of 2027) at University of Science and Technology Beijing, working on Ru-based alkaline HER electrocatalysts. I design experiments, run the electrochemistry, and write the software that processes the data. Incoming process engineer in the AI-penetration department at SMIC South (中芯南方).</p>
+      <h2 class="side-heading">Current status</h2>
+      <p class="status"><span class="status-dot" aria-hidden="true"></span> Incoming: Process Engineer, Lithography (AI Enablement) — SMIC South</p>
+    </aside>
+  </section>
+
+  <div class="container layout">
+    <section id="work" class="work" aria-labelledby="work-title">
+      <p class="section-num">01 — Selected Work</p>
+      <h2 id="work-title">Selected Work</h2>
+      <p class="section-note">Real projects only — research from my master's thesis, tools I built and use myself, and one AI application in preparation. Click a card for background, role, and outcome.</p>
+
+      <search class="filters" aria-label="Filter projects by category">
+        <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="filter-btn" data-filter="tool" aria-pressed="false">Tool</button>
+        <button type="button" class="filter-btn" data-filter="research" aria-pressed="false">Research</button>
+        <button type="button" class="filter-btn" data-filter="ai" aria-pressed="false">AI</button>
+      </search>
+
+      <div class="work-grid" id="work-grid">
+
+        <article class="card" data-category="tool">
+          <div class="card-preview" aria-hidden="true">
+            <svg viewBox="0 0 400 260"><rect width="400" height="260" fill="#e8edf2"/><line x1="60" y1="200" x2="350" y2="200" stroke="#14181f" stroke-width="1.5"/><line x1="60" y1="200" x2="60" y2="40" stroke="#14181f" stroke-width="1.5"/><line x1="60" y1="120" x2="350" y2="120" stroke="#b8c2cd" stroke-width="1" stroke-dasharray="3 5"/><path d="M60 170 C110 168, 120 60, 165 60 S 210 190, 250 190 S 310 80, 350 78" fill="none" stroke="#2456a6" stroke-width="2.5"/><circle cx="165" cy="60" r="4" fill="#14181f"/><circle cx="250" cy="190" r="4" fill="#14181f"/><rect x="286" y="34" width="64" height="22" rx="3" fill="#fafbfc" stroke="#14181f" stroke-width="1"/><line x1="294" y1="45" x2="342" y2="45" stroke="#7d8da0" stroke-width="2"/></svg>
+          </div>
+          <div class="card-body">
+            <p class="card-meta"><span class="card-cat">Engineering Tool</span> <span class="card-year">2025–26</span></p>
+            <h3 class="card-title">EchemPro — Electrochemistry Data Workbench</h3>
+            <details class="card-disclosure">
+              <summary class="card-toggle">Details</summary>
+              <div class="card-detail">
+                <h4>Background</h4>
+                <p>Electrochemical experiments pile up instrument files — Bio-Logic .mpr/.mpt, EIS spectra, chrono data. Repeating the same cleaning and plotting by hand was eating research time.</p>
+                <h4>Role</h4>
+                <p>Designed and built a Python desktop application for parsing, cleaning, analyzing, and plotting EC data; packaged with PyInstaller into a standalone macOS app.</p>
+                <h4>Outcome</h4>
+                <p>Now my daily driver for thesis data work — repeatable, reviewable analysis instead of one-off scripts. Built for one user first: me.</p>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <article class="card" data-category="research">
+          <div class="card-preview" aria-hidden="true">
+            <svg viewBox="0 0 400 260"><rect width="400" height="260" fill="#e6ebf1"/><circle cx="160" cy="125" r="60" fill="#2456a6" opacity="0.85"/><circle cx="232" cy="125" r="60" fill="#7d8da0" opacity="0.75"/><circle cx="196" cy="78" r="60" fill="none" stroke="#14181f" stroke-width="2"/><text x="140" y="131" font-family="ui-monospace, Menlo, monospace" font-size="16" fill="#ffffff">Ru</text><text x="240" y="131" font-family="ui-monospace, Menlo, monospace" font-size="16" fill="#ffffff">Ni</text><text x="184" y="74" font-family="ui-monospace, Menlo, monospace" font-size="16" fill="#14181f">Mo</text><line x1="80" y1="222" x2="320" y2="222" stroke="#b8c2cd" stroke-width="1"/></svg>
+          </div>
+          <div class="card-body">
+            <p class="card-meta"><span class="card-cat">Research</span> <span class="card-year">2024–26</span></p>
+            <h3 class="card-title">RuNi–M (M = Mo/Cr/W) Alloys — Activity through Dynamic Reconstruction</h3>
+            <details class="card-disclosure">
+              <summary class="card-toggle">Details</summary>
+              <div class="card-detail">
+                <h4>Background</h4>
+                <p>High-activity Ru-based alkaline HER catalysts do not hold still — their surfaces restructure under operating conditions, and that behavior is where the activity comes from.</p>
+                <h4>Role</h4>
+                <p>Alloy synthesis, electrochemical characterization, and data analysis across the RuNi–M composition series, with EchemPro as the analysis backbone.</p>
+                <h4>Outcome</h4>
+                <p>Identified composition–activity patterns in the high-activity RuNiMo system and traced them to dynamic surface reconstruction — the finding that seeded my thesis' unifying theme: dynamic behavior under real operating conditions.</p>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <article class="card" data-category="research">
+          <div class="card-preview" aria-hidden="true">
+            <svg viewBox="0 0 400 260"><rect width="400" height="260" fill="#e9edf3"/><circle cx="200" cy="125" r="85" fill="#fafbfc" stroke="#14181f" stroke-width="2"/><path d="M200 40 A85 85 0 0 1 200 210 Z" fill="#2456a6" opacity="0.18"/><rect x="128" y="103" width="144" height="14" fill="#2456a6"/><rect x="128" y="123" width="144" height="14" fill="#7d8da0"/><line x1="128" y1="95" x2="272" y2="95" stroke="#14181f" stroke-width="1.5" stroke-dasharray="4 4"/><line x1="128" y1="157" x2="272" y2="157" stroke="#14181f" stroke-width="1.5" stroke-dasharray="4 4"/><line x1="110" y1="230" x2="290" y2="230" stroke="#b8c2cd" stroke-width="1"/></svg>
+          </div>
+          <div class="card-body">
+            <p class="card-meta"><span class="card-cat">Research</span> <span class="card-year">2025–26</span></p>
+            <h3 class="card-title">Ru/NiMo Heterojunction — Stability against Reverse Current</h3>
+            <details class="card-disclosure">
+              <summary class="card-toggle">Details</summary>
+              <div class="card-detail">
+                <h4>Background</h4>
+                <p>In real alkaline electrolysis setups, catalysts must survive reverse-current events — not just steady-state operation. Activity without stability does not ship.</p>
+                <h4>Role</h4>
+                <p>Heterostructure design, accelerated stress testing, and decay diagnostics to separate intrinsic degradation from event-driven damage.</p>
+                <h4>Outcome</h4>
+                <p>Developed a Ru/NiMo heterojunction catalyst engineered for anti-reverse-current stability — the stability counterpart to the activity work, completing the activity–stability pair at the core of my thesis.</p>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <article class="card" data-category="ai">
+          <div class="card-preview" aria-hidden="true">
+            <svg viewBox="0 0 400 260"><rect width="400" height="260" fill="#e7ecf2"/><ellipse cx="128" cy="86" rx="44" ry="13" fill="#2456a6"/><rect x="84" y="86" width="88" height="50" fill="#2456a6"/><ellipse cx="128" cy="136" rx="44" ry="13" fill="#1d4383"/><line x1="236" y1="62" x2="356" y2="62" stroke="#14181f" stroke-width="1.5"/><line x1="236" y1="134" x2="356" y2="134" stroke="#14181f" stroke-width="1.5"/><line x1="236" y1="62" x2="236" y2="134" stroke="#14181f" stroke-width="1.5"/><line x1="356" y1="62" x2="356" y2="134" stroke="#14181f" stroke-width="1.5"/><line x1="246" y1="82" x2="346" y2="82" stroke="#7d8da0" stroke-width="3"/><line x1="246" y1="98" x2="322" y2="98" stroke="#b8c2cd" stroke-width="3"/><line x1="246" y1="114" x2="340" y2="114" stroke="#b8c2cd" stroke-width="3"/><line x1="200" y1="111" x2="236" y2="98" stroke="#14181f" stroke-width="1.5" stroke-dasharray="3 4"/></svg>
+          </div>
+          <div class="card-body">
+            <p class="card-meta"><span class="card-cat">AI Application</span> <span class="card-year">2026</span> <span class="tag-pill">In progress</span></p>
+            <h3 class="card-title">Electrochemistry Data QA Assistant (in preparation)</h3>
+            <details class="card-disclosure">
+              <summary class="card-toggle">Details</summary>
+              <div class="card-detail">
+                <h4>Goal</h4>
+                <p>An end-to-end demo that mirrors real fab work: ask questions in natural language over my own thesis data and get trustworthy, source-backed answers.</p>
+                <h4>Plan</h4>
+                <p>Local Qwen (Ollama) with pgvector for retrieval over experiment records, plus NL2SQL over structured process data — the same pattern as RAG over SOP/case/defect records in the fab.</p>
+                <h4>Status</h4>
+                <p>Architecture agreed; build starts once RAG and database fundamentals are in place (see roadmap below).</p>
+              </div>
+            </details>
+          </div>
+        </article>
+
+      </div>
+      <p class="filter-empty" id="filter-empty" hidden>No projects in this category yet.</p>
+    </section>
+
+    <aside class="side-rail" aria-label="Roadmap, career, skills, and contact">
+      <section id="roadmap" aria-labelledby="roadmap-title">
+        <p class="section-num">02 — Roadmap</p>
+        <h2 id="roadmap-title">Pre-onboarding Roadmap</h2>
+        <p class="section-note">A self-study plan aligned with the incoming role — learning in public, status updated as I go.</p>
+        <ol class="timeline">
+          <li>
+            <p class="tl-year">Phase 1 · 1–2 wks <span class="tl-status">Planned</span></p>
+            <h3>LLM concepts &amp; local deployment</h3>
+            <p class="tl-desc">Transformers, quantization (GGUF), Ollama → vLLM on the path to locally deployed Qwen.</p>
+          </li>
+          <li>
+            <p class="tl-year">Phase 2 · 2–3 wks · main focus <span class="tl-status">Planned</span></p>
+            <h3>RAG &amp; vector databases</h3>
+            <p class="tl-desc">bge-m3 embeddings, hybrid retrieval, pgvector-first, Ragas evals.</p>
+          </li>
+          <li>
+            <p class="tl-year">Phase 3 · parallel track <span class="tl-status">Planned</span></p>
+            <h3>Databases &amp; NL2SQL</h3>
+            <p class="tl-desc">SQL/PostgreSQL fundamentals, time-series concepts, text-to-SQL over process data.</p>
+          </li>
+          <li>
+            <p class="tl-year">Phase 4 · 2 wks <span class="tl-status">Planned</span></p>
+            <h3>Harness &amp; agent engineering</h3>
+            <p class="tl-desc">Function calling, a hand-rolled agent loop before frameworks like LangGraph, evals.</p>
+          </li>
+          <li>
+            <p class="tl-year">Phase 5 · 1 wk <span class="tl-status">Planned</span></p>
+            <h3>Engineering extras</h3>
+            <p class="tl-desc">Docker, vLLM/GPU concepts; LoRA deliberately deferred — not the job.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="career" aria-labelledby="career-title">
+        <p class="section-num">03 — Career</p>
+        <h2 id="career-title">Career Timeline</h2>
+        <ol class="timeline">
+          <li>
+            <p class="tl-year">2027 — Incoming</p>
+            <h3>SMIC South (中芯南方) — Process Engineer, Lithography</h3>
+            <p class="tl-desc">AI-penetration department: local Qwen deployment, harness building, database setup — RAG over SOP/case/defect records, NL2SQL over process data. A role that sits between IT/algorithm teams and process engineering.</p>
+          </li>
+          <li>
+            <p class="tl-year">2024 — 2027</p>
+            <h3>University of Science and Technology Beijing — M.S.</h3>
+            <p class="tl-desc">Ru-based alkaline HER electrocatalysts; two works unified by dynamic behavior under operating conditions (see Selected Work).</p>
+          </li>
+          <li>
+            <p class="tl-year">2020 — 2024</p>
+            <h3>Central South University · Monash University — joint program</h3>
+            <p class="tl-desc">Undergraduate studies across the two universities.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="skills" aria-labelledby="skills-title">
+        <p class="section-num">04 — Skills</p>
+        <h2 id="skills-title">Skills</h2>
+        <h3 class="skill-heading">Using every week</h3>
+        <ul class="skill-tags">
+          <li>Python (pandas)</li>
+          <li>Electrochemical testing &amp; analysis (EIS, DRT)</li>
+          <li>Data cleaning &amp; visualization</li>
+          <li>Git</li>
+          <li>Desktop app packaging (PyInstaller)</li>
+          <li>Academic writing &amp; presentations</li>
+        </ul>
+        <h3 class="skill-heading">Learning now — pre-onboarding</h3>
+        <ul class="skill-tags">
+          <li>Local LLM deployment (Ollama → vLLM)</li>
+          <li>RAG &amp; vector DBs (bge-m3, pgvector)</li>
+          <li>PostgreSQL &amp; NL2SQL</li>
+          <li>Function calling &amp; agent harnesses</li>
+          <li>Docker</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="contact" aria-labelledby="contact-title">
+        <p class="section-num">05 — Contact</p>
+        <h2 id="contact-title">Contact</h2>
+        <p class="section-note">Fastest by email.</p>
+        <dl class="contact-list">
+          <dt>Email</dt>
+          <dd><a href="mailto:xinlei2001@foxmail.com">xinlei2001@foxmail.com</a></dd>
+          <dt>Social</dt>
+          <dd>RedBook: 791727396</dd>
+          <dt>Location</dt>
+          <dd>Beijing, China</dd>
+        </dl>
+        <a class="contact-cta" href="mailto:xinlei2001@foxmail.com">Email me</a>
+      </section>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Xinlei Yang — every project here is real; no demo content.</p>
+    <p class="footer-links"><a href="#main">Back to top</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
