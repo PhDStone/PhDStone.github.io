@@ -2,6 +2,10 @@
 
 Durable context for the personal-web workspace. Short, factual, dated entries — newest first.
 
+## 2026-10-20
+
+- 初始化本地 Git 仓库（无远程）：基线提交 `2047762`，`.gitignore` 忽略 `.DS_Store`；仓库级身份设为 杨欣磊 <xinlei2001@foxmail.com>。网站文件未改动。
+
 ## 2026-10-19
 
 - Workspace moved from `MasterProject/personal-web/` to `AICowork/personal-web/` — unrelated to the master's thesis; now the third top-level workspace.
