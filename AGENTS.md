@@ -15,13 +15,15 @@ Guidance for AI agents working in this directory.
 | Path | Contents |
 |---|---|
 | `web/` | The site itself: `index.html`, `styles.css`, `script.js`. |
+| `.github/` | GitHub Actions workflow — deploys `web/` to GitHub Pages on push to `main`. |
 | `.设计师作品集（演示）.qoder.site` | Qoder demo project file (JSON), reference only — edit the files in `web/`, not this. |
 
 ## Working Rules
 
 - No build step — edit `web/` files directly and open `index.html` in a browser (or any static server) to preview.
+- Live at https://phdstone.github.io/ — pushing `main` auto-deploys `web/` to GitHub Pages via the existing workflow (~1 min).
 - Keep asset/link paths relative; the site may be deployed under any subpath.
-- Do not create build/test/deploy infrastructure unless explicitly requested.
+- Do not add build/test/deploy infrastructure beyond the existing Pages workflow unless explicitly requested.
 
 ---
 
